@@ -9,10 +9,10 @@
         <generator>Feed for Node.js</generator>
         <image>
             <title>Los Pollos Hermanos Blog</title>
-            <url>https://turingcstc.github.io/los-pollos-hermanos-website/img/Los_Pollos.png</url>
+            <url>https://turingcstc.github.io/los-pollos-hermanos-website/img/Los-Pollos-Hermanos_logo.png</url>
             <link>https://turingcstc.github.io/los-pollos-hermanos-website/blog</link>
         </image>
-        <copyright>Copyright © 2019 Your Name or Your Company Name</copyright>
+        <copyright>Copyright © 2019 TuringCSTC</copyright>
         <item>
             <title><![CDATA[New Version 1.0.0]]></title>
             <link>https://turingcstc.github.io/los-pollos-hermanos-website/blog/2017/10/24/new-version-1.0.0.html</link>

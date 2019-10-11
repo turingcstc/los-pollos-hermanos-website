@@ -6,8 +6,8 @@
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://turingcstc.github.io/los-pollos-hermanos-website/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Los Pollos Hermanos news and events.</subtitle>
-    <logo>https://turingcstc.github.io/los-pollos-hermanos-website/img/Los_Pollos.png</logo>
-    <rights>Copyright © 2019 Your Name or Your Company Name</rights>
+    <logo>https://turingcstc.github.io/los-pollos-hermanos-website/img/Los-Pollos-Hermanos_logo.png</logo>
+    <rights>Copyright © 2019 TuringCSTC</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>
         <id>https://turingcstc.github.io/los-pollos-hermanos-website/blog/2017/10/24/new-version-1.0.0.html</id>

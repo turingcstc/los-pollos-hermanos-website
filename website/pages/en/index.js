@@ -60,13 +60,15 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        {/* <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} /> */}
+        <Logo img_src={`${baseUrl}img/Los-Pollos-Hermanos_logo.png`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#about-project">关于项目</Button>
+            <Button href="#about-turingcstc">关于 Turing CSTC</Button>
+            {/* <Button href={docUrl('doc1.html')}>Example Link</Button>
+            <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -93,25 +95,29 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
+    
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>社会责任</h2>
+        <MarkdownBlock>进入中国以来，Los Pollos Hermanos 始终致力于回馈社会，对于中国社会的发展做出自己的一份贡献，在地方和全国范围内开展企业社会责任项目。自2019年起，Los Pollos Hermanos 中国的伙伴和志愿者们一共贡献了超过 10 万小时的社区服务，增进了与社区和顾客的情感联系。</MarkdownBlock>
       </div>
+  
+    
     );
 
     const TryOut = () => (
-      <Block id="try">
+      <Block id="about-turingcstc">
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              'TuringCSTC(Turing Computer Science and Technology Community) 图灵学社，是一个自由的开发者社区。欢迎您的加入。',
+              // 'To make your landing page more attractive, use illustrations! Check out ' +
+              // '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              // 'The illustrations you see on this page are from unDraw.',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: '关于 TuringCSTC',
           },
         ]}
       </Block>
@@ -132,14 +138,14 @@ class Index extends React.Component {
     );
 
     const LearnHow = () => (
-      <Block background="light">
+      <Block background="light" id="about-project">
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              '我们为 Los Pollos Hermanos 提供全方面的软件开发，以帮助企业更好的为消费者服务。为此我们创建了这个站点。',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: '关于项目',
           },
         ]}
       </Block>
@@ -149,19 +155,21 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'Los Pollos Hermanos 是一家快餐连锁店，专门经营炸鸡。由 Gustavo Fring 和 Max Arciniega 创立。'
+                   + 'Los Pollos Hermanos 是 Madrigal Electromotive 的子公司，Madrigal Electromotive 是一家庞大的、多元化的集团企业，业务范围主要包括工业设备，制造业，全球航运，建筑业和酒店业。',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: '关于我们',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Los Pollos Hermanos 于2019年1月，在北京中国国际贸易中心开设中国内地第一家门店。对我们来说，中国目前已成为发展速度最快、最大的海外市场。',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: '走入中国',
           },
         ]}
       </Block>
+      
     );
 
     const Showcase = () => {

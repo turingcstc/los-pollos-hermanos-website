@@ -107,7 +107,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+        {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -116,6 +116,18 @@ class Footer extends React.Component {
             src={`${this.props.config.baseUrl}img/oss_logo.png`}
             alt="Facebook Open Source"
             width="170"
+            height="45"
+          />
+        </a> */}
+        <a
+          href="https://turingcstc.github.io/los-pollos-hermanos-website"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="fbOpenSource">
+          <img
+            src={`${this.props.config.baseUrl}img/turingcstc_logo.png`}
+            alt="TuringCSTC Open Source"
+           
             height="45"
           />
         </a>

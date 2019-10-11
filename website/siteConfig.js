@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Los Pollos Hermanos', // Title for your website.
-  tagline: 'A website for testing',
+  tagline: '一家专门经营炸鸡的快餐连锁店',
   url: 'https://turingcstc.github.io', // Your website URL
   baseUrl: '/los-pollos-hermanos-website/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -48,8 +48,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/Los_Pollos.png',
-  footerIcon: 'img/Los_Pollos.png',
+  headerIcon: 'img/Los-Pollos-Hermanos_logo.png',
+  footerIcon: 'img/Los-Pollos-Hermanos_logo.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
@@ -75,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} TuringCSTC`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

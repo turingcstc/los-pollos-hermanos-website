@@ -159,7 +159,7 @@ class Index extends React.Component {
                    + 'Los Pollos Hermanos 是 Madrigal Electromotive 的子公司，Madrigal Electromotive 是一家庞大的、多元化的集团企业，业务范围主要包括工业设备，制造业，全球航运，建筑业和酒店业。',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: '关于我们',
+            title: '关于 Los Pollos Hermanos',
           },
           {
             content: 'Los Pollos Hermanos 于2019年1月，在北京中国国际贸易中心开设中国内地第一家门店。对我们来说，中国目前已成为发展速度最快、最大的海外市场。',

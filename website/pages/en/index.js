@@ -61,12 +61,12 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         {/* <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} /> */}
-        <Logo img_src={`${baseUrl}img/Los-Pollos-Hermanos_logo.png`} />
+        <Logo img_src={`${baseUrl}img/lph_logo.png`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#about-project">关于项目</Button>
-            <Button href="#about-turingcstc">关于 Turing CSTC</Button>
+            <Button href="#about-turingcstc">关于 TuringCSTC</Button>
             {/* <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
@@ -115,7 +115,8 @@ class Index extends React.Component {
               // 'To make your landing page more attractive, use illustrations! Check out ' +
               // '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
               // 'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+            // image: `${baseUrl}img/undraw_code_review.svg`,
+            image: `${baseUrl}img/about_turingcstc.jpg`,
             imageAlign: 'left',
             title: '关于 TuringCSTC',
           },
@@ -128,10 +129,11 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              '如果您对这个项目感兴趣，欢迎加入我们。',
+            // image: `${baseUrl}img/undraw_note_list.svg`,
+            image: `${baseUrl}img/contact_us.jpg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: '加入我们',
           },
         ]}
       </Block>
@@ -143,7 +145,8 @@ class Index extends React.Component {
           {
             content:
               '我们为 Los Pollos Hermanos 提供全方面的软件开发，以帮助企业更好的为消费者服务。为此我们创建了这个站点。',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            // image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            image: `${baseUrl}img/about_project.jpg`,
             imageAlign: 'right',
             title: '关于项目',
           },
@@ -157,13 +160,15 @@ class Index extends React.Component {
           {
             content: 'Los Pollos Hermanos 是一家快餐连锁店，专门经营炸鸡。由 Gustavo Fring 和 Max Arciniega 创立。'
                    + 'Los Pollos Hermanos 是 Madrigal Electromotive 的子公司，Madrigal Electromotive 是一家庞大的、多元化的集团企业，业务范围主要包括工业设备，制造业，全球航运，建筑业和酒店业。',
-            image: `${baseUrl}img/undraw_react.svg`,
+            // image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/about_lph.png`,
             imageAlign: 'top',
             title: '关于 Los Pollos Hermanos',
           },
           {
             content: 'Los Pollos Hermanos 于2019年1月，在北京中国国际贸易中心开设中国内地第一家门店。对我们来说，中国目前已成为发展速度最快、最大的海外市场。',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            // image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/going_into_china.png`,
             imageAlign: 'top',
             title: '走入中国',
           },
@@ -210,7 +215,7 @@ class Index extends React.Component {
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
+          {/* <Showcase /> */}
         </div>
       </div>
     );

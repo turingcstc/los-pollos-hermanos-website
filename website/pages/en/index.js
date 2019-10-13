@@ -66,8 +66,10 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#about-project">关于项目</Button>
-            <Button href="#about-turingcstc">关于 TuringCSTC</Button>
-            {/* <Button href={docUrl('doc1.html')}>Example Link</Button>
+            <Button href="#about-turingcstc">关于 Turing CSTC</Button>
+            <Button href={docUrl('getting-started/introduction')}>文档</Button>
+            <Button href="https://github.com/turingcstc/los-pollos-hermanos">GitHub</Button>
+            {/* 
             <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
@@ -111,14 +113,14 @@ class Index extends React.Component {
         {[
           {
             content:
-              'TuringCSTC(Turing Computer Science and Technology Community) 图灵学社，是一个自由的开发者社区。欢迎您的加入。',
+              'Turing CSTC (图灵学社，Turing Computer Science and Technology Community) 是一个开放的软件开发者社区。欢迎您的加入。',
               // 'To make your landing page more attractive, use illustrations! Check out ' +
               // '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
               // 'The illustrations you see on this page are from unDraw.',
             // image: `${baseUrl}img/undraw_code_review.svg`,
             image: `${baseUrl}img/about_turingcstc.jpg`,
             imageAlign: 'left',
-            title: '关于 TuringCSTC',
+            title: '关于 Turing CSTC',
           },
         ]}
       </Block>
@@ -158,7 +160,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Los Pollos Hermanos 是一家快餐连锁店，专门经营炸鸡。由 Gustavo Fring 和 Max Arciniega 创立。'
+            content: 'Los Pollos Hermanos 是一家专门经营炸鸡的快餐连锁店。由 Gustavo Fring 和 Max Arciniega 创立。'
                    + 'Los Pollos Hermanos 是 Madrigal Electromotive 的子公司，Madrigal Electromotive 是一家庞大的、多元化的集团企业，业务范围主要包括工业设备，制造业，全球航运，建筑业和酒店业。',
             // image: `${baseUrl}img/undraw_react.svg`,
             image: `${baseUrl}img/about_lph.png`,
@@ -166,7 +168,7 @@ class Index extends React.Component {
             title: '关于 Los Pollos Hermanos',
           },
           {
-            content: 'Los Pollos Hermanos 于2019年1月，在北京中国国际贸易中心开设中国内地第一家门店。对我们来说，中国目前已成为发展速度最快、最大的海外市场。',
+            content: 'Los Pollos Hermanos 于2019年在北京中国国际贸易中心开设中国内地第一家门店。对我们来说，中国目前已成为发展速度最快、最大的海外市场。',
             // image: `${baseUrl}img/undraw_operating_system.svg`,
             image: `${baseUrl}img/going_into_china.png`,
             imageAlign: 'top',

@@ -12,4 +12,4 @@ title: Introduction
 
 ## 进展
 
-目前，这个项目处于准备阶段。如果您对此感兴趣可以持续关注这里。接下来我们首先会实现一个 Oauth Server 功能，当这部分需求确定下来后会更新在这里。
+目前，这个项目处于准备阶段。如果您对此感兴趣可以持续关注这里。接下来我们首先会实现一个 Universal Authentication & Authorization Platform (UAAP) 功能，UAAP 是一个使用 Oauth 2.0 和 OpenID Connect 技术构建的，用来实现单点登录(Single Sign-on)、身份管理(identity management)、认证与授权和 API 安全的通用解决方案。当这部分需求确定下来后会更新在这里。
